@@ -1,0 +1,14 @@
+
+State Machine - |LAB2_CU|state
+Name state.HALT state.JPOS state.JZ state.INPUT state.SUB state.ADD state.STORE state.LOAD state.DECODE state.FETCH state.START 
+state.START 0 0 0 0 0 0 0 0 0 0 0 
+state.FETCH 0 0 0 0 0 0 0 0 0 1 1 
+state.DECODE 0 0 0 0 0 0 0 0 1 0 1 
+state.LOAD 0 0 0 0 0 0 0 1 0 0 1 
+state.STORE 0 0 0 0 0 0 1 0 0 0 1 
+state.ADD 0 0 0 0 0 1 0 0 0 0 1 
+state.SUB 0 0 0 0 1 0 0 0 0 0 1 
+state.INPUT 0 0 0 1 0 0 0 0 0 0 1 
+state.JZ 0 0 1 0 0 0 0 0 0 0 1 
+state.JPOS 0 1 0 0 0 0 0 0 0 0 1 
+state.HALT 1 0 0 0 0 0 0 0 0 0 1 

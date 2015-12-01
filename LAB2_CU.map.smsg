@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at uP_CU.v(8): object "Sub" differs only in case from object "SUB" in the same scope
+Info (10281): Verilog HDL Declaration information at uP_CU.v(8): object "Halt" differs only in case from object "HALT" in the same scope
+Info (10281): Verilog HDL Declaration information at LAB2_CU.v(4): object "Sub" differs only in case from object "SUB" in the same scope
+Info (10281): Verilog HDL Declaration information at LAB2_CU.v(4): object "Halt" differs only in case from object "HALT" in the same scope

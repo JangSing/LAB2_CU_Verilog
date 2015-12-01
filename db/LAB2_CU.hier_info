@@ -1,0 +1,26 @@
+|LAB2_CU
+IR[5] => Decoder0.IN2
+IR[6] => Decoder0.IN1
+IR[7] => Decoder0.IN0
+Aeq0 => Selector0.IN3
+Apos => Selector0.IN4
+Enter => Selector1.IN4
+Enter => Selector2.IN2
+Clk => state~0.IN1
+Reset => state~1.IN1
+IRload <= state.FETCH.DB_MAX_OUTPUT_PORT_TYPE
+JMPmux <= AllOut~0.DB_MAX_OUTPUT_PORT_TYPE
+PCload <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+Meminst <= AllOut~1.DB_MAX_OUTPUT_PORT_TYPE
+MemWr <= state.STORE.DB_MAX_OUTPUT_PORT_TYPE
+Aload <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Sub <= state.SUB.DB_MAX_OUTPUT_PORT_TYPE
+Halt <= state.HALT.DB_MAX_OUTPUT_PORT_TYPE
+Asel[0] <= state.INPUT.DB_MAX_OUTPUT_PORT_TYPE
+Asel[1] <= state.LOAD.DB_MAX_OUTPUT_PORT_TYPE
+stateOut[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+stateOut[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+stateOut[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+stateOut[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
